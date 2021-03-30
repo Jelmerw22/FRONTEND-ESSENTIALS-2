@@ -1,6 +1,6 @@
 *{
-    padding: 0;
-    margin: 0;
+    text-decoration: none;
+    text-align: center;
 }
 
 .menu li{
@@ -10,4 +10,9 @@
 .menu li a{
     background-color: lightskyblue;
     padding: 10px;
+    
+}
+
+*:hover{
+    color: red;
 }
