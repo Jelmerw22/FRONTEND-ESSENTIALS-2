@@ -12,3 +12,9 @@ function showRandomNumber1(){
 }
 
 getal1 = showRandomNumber1();
+
+function geefAntwoord(){
+    if(getal1 >> getal2)
+        { document.body.style.backgroundColor="green"
+            }else{document.body.style.backgroundColor="red"}
+}
